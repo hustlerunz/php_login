@@ -1,0 +1,7 @@
+create table users (
+    user varchar(255),
+    pass varchar(255),
+    value varchar(255),
+    permission varchar(255),
+    primary key (user)
+)

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SR_M</title>
+<link rel="stylesheet" href="login.css" type="text/css">
+</head>
+<body>
+<div id="container">
+<div id="myLayer" onmousedown="setinner('hidden')">
+<iframe id="myiframe" style="position: absolute; width: 179px; height: 88px; border: 1px none #000000; z-index: -1; filter:alpha(opacity=0); -moz-opacity:0">
+</iframe>
+<div id="layer_login_title">
+<div style="position:relative; left:35px; top:8px;">
+<font class="note" id="errnote">&nbsp;Error</font>
+</div>
+</div>
+<div id="layer_login_content">
+<span>
+&nbsp;&nbsp;<font id="errmsg" class="notecontent"></font><span id="time" style="color:red;display:none;"></span>
+</span>
+</div>
+</div>
+
+<div id="head">
+
+<div class="type"><font id="">login</font></div>
+
+<div id="banner"></div>
+</div>
+
+<div id="loginArea">
+
+<div class="login_frame">
+<form method="POST" action="login.php">
+<ul class="login_title">
+<li class="login_title_left"></li>
+<li class="login_title_center">Please login to continue...</li>
+
+<li class="login_title_right"></li>
+</ul>
+
+<div class="content login_content">
+<ul class="login_blank"></ul>
+<ul class="login_ul_1">
+<li class="login_li_1"><span>Username</span></li>
+<li class="login_li_2">
+<input type="text" class="username" name="Username" id="Frm_Username" autocomplete="new-password">
+</li>
+
+</ul>
+<ul class="login_blank"></ul>
+<ul class="login_ul_1">
+<li class="login_li_1"><span>Password</span></li>
+<li class="login_li_2">
+<input type="password" class="password" name="Password" id="Frm_Password" autocomplete="new-password">
+</li>
+<li class="login_li_3">
+<input class="login" type="submit" id="LoginId" value="Login">
+<!--<input class="login" type="submit" id="LoginId" value="Login" onclick="dosubmit()">-->
+</li>
+</ul>
+<ul class="login_blank"></ul>
+</div>
+</div>
+</form>
+</div>
+<div class="bottom_line"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
